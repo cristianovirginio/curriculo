@@ -1,0 +1,194 @@
+:root{
+    --cor-primaria:#22D4FD;
+    --cor-secundaria:#F6F6F6;
+    --cor-terciaria:#000000;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+
+    box-sizing: border-box;
+
+    background-color: var(--cor-terciaria);
+    color:var(--cor-secundaria);
+}
+nav{
+    display:flex;
+
+    padding: 2% 0% 0% 15% ;
+    gap:5rem;
+
+}
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size:1.5rem;
+
+    color:var(--cor-primaria);
+    text-decoration: none;
+   
+  
+}
+.apresentacao {
+    margin:5% 15%;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2rem;
+   
+}
+.apresentacao_conteudo{
+
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Montserrat', sans-serif;
+
+    gap:2.5rem;
+
+}
+.apresentacao_titulo,
+.mainData h1{
+    font-size: 2.5rem;
+    font-family: 'krona One', sans-serif;
+  
+}
+.apresentacao_tituloAbout{
+    font-size: 2.5rem;
+    font-family: 'krona One', sans-serif;
+    font-weight: 400;
+   
+}
+.apresentacao_conteudo_texto{
+    font-size: 1.5rem;
+    font-family: 'montserrat', sans-serif;
+}
+.apresentacao_buttons{
+    display:flex;
+    justify-content:space-between;
+
+}
+img{
+    Width:100%;
+    Height:34.3rem;
+    Top:14.6rem;
+    
+    border-radius:1rem;
+}
+h1 {
+    color: white;
+    /* Adicionar mais estilos conforme necessário */
+}
+p {
+    color: white;
+    /* Adicionar mais estilos conforme necessário */
+}
+strong{
+    color:var(--cor-primaria);
+
+}
+.subtitle{
+    padding-bottom:1rem;
+}
+.apresentacao_buttons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    Padding: 0px, 2rem, 0px, 2rem;
+}
+.apresentacao_buttons h2{
+    font-family: "Krona One", sans-serif;
+}
+.apresentacao_buttons_a{
+
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    gap:1rem;
+
+    background-color: none;
+    color: var(--cor-secundaria);
+    border: .1rem solid var(--cor-primaria) ;
+    border-radius:.5rem;
+    text-decoration: none;
+
+    Width:23.6rem;
+    padding:1rem 0;
+    border-radius:1rem;
+  
+
+    font-size: 1.5rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    text-align:center;
+}
+.apresentacao_buttons_a img{
+    Width:2rem;
+    Height:2rem;
+}
+.apresentacao_buttons_a:hover{
+    background-color: #272727;
+    padding: 3%;
+
+}
+.apresentacao_imagem{
+    width:50%;
+
+    border:solid .1rem var(--cor-primaria);
+    border-radius: 1rem;
+    
+}
+
+/* Adicionar mais estilos conforme necessário */
+footer{
+
+    color:var(--cor-terciaria);
+    background-color:var(--cor-primaria);
+
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    
+    padding:1rem 1.5rem;
+    font-size:1.5rem;
+    font-weight: 400;
+}
+/*///////////RESUME/////////////////*/
+.listExperience{
+    list-style: square;
+    
+}
+.mainData,
+.qualifications,
+.academy-formation,
+.professionalExperience{
+
+    margin-top:.2,5rem;
+}
+.mainData h1{
+    margin-bottom:1rem;
+}
+.subtitle{
+    margin-top:1rem;
+}
+
+@media(max-width:1200px){
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding:5%;
+    
+    }
+    nav a{
+        justify-content: center;
+    }
+    .apresentacao_conteudo,
+    .apresentacao_imagem{
+        width: auto;
+    }
+  
+}
+    
